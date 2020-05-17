@@ -11,13 +11,22 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: blueviolet;
+    background-color: #282827;
     width: 100%;
     height: 50px;
+    box-shadow: 0px 5px 5px black;
 
 }
+#headerText{
+    color: #DCD8CF;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+}
 #main{
-    padding-top: 20px;
+    margin-top: 20px;
+    padding: 8px;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -25,9 +34,11 @@ body {
     font-size: 34px;
     font-weight: 800;
     text-align: center;
+    box-shadow: 5px 5px 5px black;
 }
 #message{
     text-align: center;
     font-size: 28px;
     font-weight: 800;
+    padding-top: 50px;
 }
